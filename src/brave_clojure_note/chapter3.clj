@@ -1,11 +1,11 @@
 (ns brave-clojure-note.chapter3)
-;exercise 3
+;exercise 4
 (def mapset (comp set map))
 (mapset inc [1 1 2 2])
 
 (mapset + [3 4 2] [1 1 2 2])
 
-;exercise 4
+;exercise 5
 (def asym-hobbit-body-parts [{:name "head" :size 3}
                              {:name "left-eye" :size 1}
                              {:name "left-ear" :size 1}
