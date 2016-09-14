@@ -1,4 +1,4 @@
-(ns fwpd.core)
+(ns brave-clojure-note.fwpd)
 
 (def filename "suspects.csv")
 (def vamp-keys [:name :glitter-index])
