@@ -1,4 +1,4 @@
-(ns brave_clojure_note.fwpd)
+(ns fwpd.core)
 
 (def filename "suspects.csv")
 (def vamp-keys [:name :glitter-index])
@@ -56,7 +56,11 @@
 (append suspect_records {:name "dosme" :glitter-index "7"})
 
 ;;; excise 3
+(validate name )
+(defn validate
+  [validatorMap record]
 
+  )
 
 ;;;exicise 4
 (slurp filename)
